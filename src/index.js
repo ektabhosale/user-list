@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import FetchApi from './FetchApi'
 import * as serviceWorker from './serviceWorker';
+import MainComp from './components/MainComp'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <FetchApi/> */}
+    <MainComp/>
   </React.StrictMode>,
   document.getElementById('root')
 );

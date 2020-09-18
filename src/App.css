@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+.main_div{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  border-radius: 5px 5px 5px 5px;
+ 
+}
+/* tr:hover {background-color: rgb(110, 129, 236);}
+tr:nth-child(even){background-color: #bdd8f7;}
+table, th, td {
+  border: 1px solid black;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+} */
+html {
+  background: rgb(252, 249, 249) !important;	
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Poppins", sans-serif;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header{
+  background-color: rgb(87, 21, 241);
   color: white;
+  margin-top: 25px;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  text-shadow: black;
+  box-shadow: -3px 4px 8px 0px rgba(0,0,0,0.42);
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
 }
-
-.App-link {
-  color: #61dafb;
+.h2{
+  font-size: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.content{
+  font-size: 20px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+  /* .modal-backdrop {
+    z-index: 1040 !important;
   }
-  to {
-    transform: rotate(360deg);
+  .modal-content {
+    margin: 2px auto;
+    z-index: 1100 !important;
   }
-}
+  .modal-backdrop {
+      
+    display: none;    
+  }
+  .modal_body{
+    display: none;
+    color: blue;
+    align-self: center;
+    align-items: center;
+    
+  } */
+ 
+  table {
+    font-family: "Lato","sans-serif";
+    text-shadow: black;
+    box-shadow: -3px 4px 8px 0px rgba(0,0,0,0.42);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;  
+    margin-top: 30%;
+    background-color: white;
+    height: auto;
+    
+  }       /* added custom font-family  */
+     
+    table.one {                                  
+    margin-bottom: 3em; 
+    border-collapse:collapse;   }   
+     
+    td {                            /* removed the border from the table data rows  */
+    text-align: center;     
+    width: 10em;                    
+    padding: 1em;       }       
+     
+    th {                              /* removed the border from the table heading row  */
+    text-align: center;                 
+    padding: 1em;
+    background-color: #e8503a;       /* added a red background color to the heading cells  */
+    color: white;       }                 /* added a white font color to the heading text */
+     
+    tr {    
+    height: 2em; 
+  width: 10em; 
+  text-shadow: black;
+  box-shadow: -3px 4px 8px 0px rgba(0,0,0,0.42);  }
+     
+    /* table tr:nth-child(even) {            
+        background-color: rgb(147, 141, 236);     }
+     
+    table tr:nth-child(odd) {            
+    background-color:rgb(69, 146, 248);      } */
+    .pagination {
+      display: inline-block;
+      margin-left: 40%;
+      margin-right: 40%;
+      margin-top: 2%;
+      font-weight: bold;
+    }
+    
+    .pagination a {
+      color: black;
+      float: left;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: background-color .3s;
+      border: 1px solid #ddd;
+    }
+    
+    .pagination a.active {
+      background-color: #4CAF50;
+      color: white;
+      border: 1px solid #4CAF50;
+    }
+    
+    .pagination a:hover:not(.active) {background-color: rgb(240, 67, 14);}
+    
